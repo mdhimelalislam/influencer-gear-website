@@ -1,0 +1,40 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+
+}
+nav ul{
+    display: flex;
+    gap: 15px;
+}
+nav li{
+    list-style: none;
+    
+}
+nav a{
+    text-decoration: none;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.banner-btn{
+    border: none;
+    border-radius: 20px;
+    background-color: brown;
+    color: white;
+}
+.banner-img{
+    background-image: url(/images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+.banner-icons{
+    display: flex;
+    justify-content: space-around;
+}
