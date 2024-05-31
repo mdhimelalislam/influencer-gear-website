@@ -1,40 +1,126 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-feature-settings: 'clig' off, 'liga' off;
+}
+
+header {
+    padding: 5.6rem 7.5rem 0 7.5rem;
+    max-width: 100%;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-.nav-title{
+
+.nav-title {
+    color: #3A3A3A;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 4.375rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 2.20rem;
+}
+
+nav li {
+    list-style: none;
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 
 }
-nav ul{
-    display: flex;
-    gap: 15px;
-}
-nav li{
-    list-style: none;
-    
-}
-nav a{
+
+nav li a {
     text-decoration: none;
 }
-.banner{
+
+.banner {
     display: flex;
     justify-content: space-between;
-    gap: 10px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    gap: 8rem;
+    margin-top: 3.125rem;
+    margin-bottom: 4.375rem;
 }
-.banner-btn{
+
+.banner-title {
+    color: #3A3A3A;
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 4.375rem;
+    margin-top: 9rem;
+}
+
+.banner-description {
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.banner-btn {
     border: none;
-    border-radius: 20px;
-    background-color: brown;
-    color: white;
+    border-radius: 2.5rem;
+    background: #E02C6D;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: .8rem 1.8rem;
+    margin-top: 1rem;
 }
-.banner-img{
-    background-image: url(/images/Circle\ design.svg);
+
+.banner-img {
+    width: 100%;
+    background: url(/images/Circle\ design.svg);
     background-repeat: no-repeat;
     background-position: center right;
 }
-.banner-icons{
+
+.banner-items-container {
+    align-items: center;
+    margin: 1rem 2=10rem 1rem 10rem;
+}
+
+.banner-icons {
     display: flex;
     justify-content: space-around;
+}
+
+
+.up {
+
+    fill: linear-gradient(90deg, rgba(192, 204, 218, 0.10) 0%, rgba(192, 204, 218, 0.60) 50.38%, rgba(192, 204, 218, 0.10) 100%);
+}
+
+main {
+    margin-top: 5rem;
+    max-width: 90rem;
+}
+
+.section-title {
+    color: #3A3A3A;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 70px;
+    text-align: center;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.product {
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 1rem;
+    width: 329px;
+    height: 476px;
+    flex-shrink: 0;
 }
