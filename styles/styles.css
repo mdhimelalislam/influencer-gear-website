@@ -82,7 +82,7 @@ nav li a {
 }
 
 .banner-items-container {
-    align-items: center;
+
     margin: 1rem 2=10rem 1rem 10rem;
 }
 
@@ -99,7 +99,13 @@ nav li a {
 
 main {
     margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 90rem;
+}
+
+.collection {
+    margin-bottom: 5rem;
 }
 
 .section-title {
@@ -120,7 +126,94 @@ main {
     background: #FFF;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     padding: 1rem;
-    width: 329px;
-    height: 476px;
-    flex-shrink: 0;
+}
+
+.product-img {
+    max-width: 100%;
+}
+
+.product-title {
+    color: #18191F;
+    font-size: 1.9rem;
+    font-weight: 500;
+    line-height: 3rem;
+}
+
+.product-description {
+    color: #787885;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 143%;
+    letter-spacing: 0.252px;
+}
+
+.star {
+    fill: #FB8200;
+}
+
+.see-more {
+    text-align: right;
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    margin-bottom: 5rem;
+
+}
+
+.feature img {
+    border-radius: 7px;
+}
+
+.feature-title {
+    color: #0A0826;
+    font-size: 2.3rem;
+    font-weight: 700;
+    line-height: 4rem;
+}
+
+.feature-description {
+    color: #6C6C6C;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+}
+
+.join {
+    display: inline-flex;
+    background: #E02C6D;
+    padding: .625rem 1.5rem;
+    gap: 8px;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+footer {
+    background: #0A0826;
+    text-align: center;
+    padding: 3rem;
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.copyright {
+    color: #D9DBE1;
+    font-family: Manrope;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+.social-media svg{
+    gap: 2rem;
 }
