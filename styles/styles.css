@@ -77,13 +77,14 @@ nav li a {
 .banner-img {
     width: 100%;
     background: url(/images/Circle\ design.svg);
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center right;
 }
 
 .banner-items-container {
 
-    margin: 1rem 2=10rem 1rem 10rem;
+    margin: 1rem 10rem 1rem 10rem;
 }
 
 .banner-icons {
@@ -187,6 +188,7 @@ main {
 
 .join {
     display: inline-flex;
+    border: none;
     background: #E02C6D;
     padding: .625rem 1.5rem;
     gap: 8px;
